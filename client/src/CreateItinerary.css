@@ -1,0 +1,136 @@
+.itinerary-outer-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.itinerary-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(90,79,243,0.08);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.itinerary-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.itinerary-form-grid .start-place {
+  grid-column: 1;
+}
+.itinerary-form-grid .end-place {
+  grid-column: 2;
+}
+.itinerary-form-grid .start-date {
+  grid-column: 1;
+}
+.itinerary-form-grid .end-date {
+  grid-column: 2;
+}
+.itinerary-form-grid .description-group {
+  grid-column: 1 / span 2;
+}
+
+.trip-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn.edit {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn.edit:hover {
+  background: #115293;
+}
+
+.btn.delete {
+  background: #fff;
+  color: #f44336;
+  border: 1px solid #f44336;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn.delete:hover {
+  background: #f44336;
+  color: #fff;
+}
+
+.activity-edit-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.activity-edit-row input,
+.activity-edit-row select {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  min-width: 110px;
+}
+.activity-edit-row .btn.edit {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.activity-edit-row .btn.edit:hover {
+  background: #115293;
+}
+.activity-edit-row .btn.delete {
+  background: #fff;
+  color: #f44336;
+  border: 1px solid #f44336;
+  border-radius: 6px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.activity-edit-row .btn.delete:hover {
+  background: #f44336;
+  color: #fff;
+}
+
+.activity-edit-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background: #f7f7ff;
+  padding: 1rem 0.5rem;
+  border-radius: 8px;
+}
+.activity-edit-grid .form-group {
+  margin-bottom: 0;
+} 

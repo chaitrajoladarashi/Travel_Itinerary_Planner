@@ -1,0 +1,80 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 2.5rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(90,79,243,0.08);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn.gradient {
+  background: linear-gradient(90deg, #5a4ff3 0%, #8f6fff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn.logout {
+  background: #f44336;
+  color: #fff;
+}
+
+.trips-list {
+  margin-top: 1.5rem;
+}
+
+.trip-card {
+  background: #f7f7ff;
+  border-radius: 8px;
+  padding: 1.2rem 1rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px rgba(90,79,243,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.trip-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5a4ff3;
+}
+
+.trip-details {
+  display: flex;
+  gap: 1.5rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+.trip-actions {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.btn.view, .btn.edit, .btn.delete {
+  background: #fff;
+  color: #5a4ff3;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn.delete {
+  color: #f44336;
+  border-color: #f44336;
+} 
